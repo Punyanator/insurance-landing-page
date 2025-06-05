@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body,html{
+    width:100vw;
+    overflow-x: hidden;
+}
+body{
+    background-image: url(images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+
+    background-position-y: 32rem;
+}
+#sub-body{
+    width:100%;
+    overflow-x: visible;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#navbutton{
+    display:none;
+    border:none;
+}
+#navbar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 10%;
+}
+#navbar-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+}
+#navbar-sub > * {
+    font-size: 0.8rem; 
+    text-align: center;
+
+}
+.viewplans{
+    margin:0;
+    font-size: 0.8rem; 
+    background-color: white; 
+    width:8rem;
+    padding:0.5rem 0;
+}
+
+#bluebacktext{
+    background-image: url(images/bg-pattern-intro-left-desktop.svg), url(images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y:28rem, top;
+    background-position-x:0, right;
+    width:100%;
+    background-color:hsl(256, 26%, 20%) ;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:7rem 10% 7rem 10%; 
+    margin-bottom: 15rem;
+    justify-content: space-between;
+}
+.intro-image{
+    top:11rem;
+    right:10%;
+    position:absolute;
+}
+.border-line{
+    width:7rem;
+    border-top: 2px solid white;
+    margin-bottom:4rem;
+    
+}
+.border-line2{
+    width:7rem;
+    border-top: 2px solid hsl(273, 4%, 51%);
+    
+}
+#text-container{
+    width:46%;
+}
+
+#different{
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+.different{
+    font-size: 1.5rem;
+     margin-bottom: 1rem;
+}
+.differentelement{
+    width:32.5%;
+}
+#findout{
+    background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: auto 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+    align-items: center;
+    background-color:hsl(256, 26%, 20%) ; 
+    justify-content: space-between;
+    padding:3rem 5%;
+    margin-bottom:6rem;
+}
+.findout{
+    width:45%;
+    font-size: 3rem;
+    color:white;
+    line-height: 3rem;
+}
+footer{
+    background-image: url(images/bg-pattern-footer-desktop.svg);
+    background-position-x:left;
+    background-position-y:top ;
+    background-repeat:no-repeat;
+    background-color: hsl(0, 0%, 98%);
+    padding:4rem 0;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+#footer-insure{
+    display:flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items:center;
+    width:90%;
+    margin:0 auto 0 auto;
+    border-bottom: 2px solid grey;
+    padding-bottom:2rem;
+}
+
+#linklist{
+    width:60%;
+    margin: 0 10%;
+    padding-top:2.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+ul{
+    list-style-type: none;
+}
+#linklist li{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+#linklist ul{
+    margin-right:2rem;
+    margin-bottom: 2rem;
+}
+.listhead{
+    padding-bottom:2rem;
+}
+.attribution{
+    margin:2rem auto;
+    text-align: center;
+}
+
+#viewplansW:hover{
+    background-color:hsl(256, 26%, 20%);
+    color:white;
+}
+#viewplansP{
+    color:white; 
+    border:2px solid white; 
+    background-color:hsl(256, 26%, 20%);
+}
+#viewplansP:hover{
+    background-color:white;
+    color:hsl(256, 26%, 20%);
+}
+
+#how-we-work-b{
+    color:white; 
+    border:2px solid white; 
+    background-color:hsl(256, 26%, 20%);
+}
+
+#how-we-work-b:hover{
+    background-color:white;
+    color:hsl(256, 26%, 20%);
+}
+.fontsize4-2rem{
+    font-size: 4.2rem; 
+    line-height: 3.5rem;
+}
+.text-container-reg-text{
+    margin-bottom: 2rem; 
+    font-size: 16px;
+}
+.margin-right2rem{
+    margin-right: 2rem; 
+}
+@media screen and (max-width:1300px){
+    .intro-image{
+        width:40%
+    }
+    .intro-image > *{
+        width:100%
+    }
+}
+@media screen and (max-width:900px){
+    .intro-image{
+        width:35%
+    }
+    .intro-image > *{
+        width:100%
+    }
+}
+@media screen and (max-width:830px){
+    .intro-image{
+        width:31%
+    }
+    .intro-image > *{
+        width:100%
+    }
+}
+@media screen and (max-width:790px){
+        .intro-image{
+            position: static;
+            width:100%;
+        }
+        .intro-image > *{
+            width:100%;
+            object-fit:cover;
+        }
+    }
+
+@media screen and (max-width:700px) {
+    #insure-logo-navbar {
+        margin-right:1rem;
+        min-width: 112px;
+    }
+    #navbar-sub{
+        width:70%;
+        justify-content: space-between;
+    }
+    #navbar-sub > *:last-child{
+        display: none;
+    }
+    .margin-right2rem{
+        margin-right:0;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    body{
+       background-image: url(images/bg-pattern-intro-right-mobile.svg);
+       background-repeat: no-repeat;
+       background-position-y:52rem ;
+       background-position-x:15rem ;
+    }
+    #navbar{
+        position:relative;
+    }
+    #navbar-sub > *:last-child{
+        display: block;
+    }
+    #navbar-sub{
+        padding-top: 3rem;
+        position:absolute;
+        top:62px;
+        left:0;
+        width:100%;
+        background-color:hsl(270, 9%, 17%);
+        color:white;
+        z-index:1;
+        flex-wrap: wrap;
+        height:500px;
+        display: none;
+        justify-content: center;
+    }
+    #navbar-sub > *{
+        width:100%;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom:2rem;
+    }
+    #viewplansW{
+        width:90%;
+        background-color: hsl(270, 9%, 17%);
+        border-color: white;
+        color:white;
+        font-size: 1.3rem;
+    }
+    #navbutton{
+        display:block;
+    }
+    .border-line{
+        border:none;
+        margin:0;
+
+    }
+    .border-line2{
+        width:30%;
+    }
+    #bluebacktext{
+        justify-content: center;
+        padding:5rem 0;
+        margin-bottom: 10rem;
+        background-image: url(images/bg-pattern-intro-left-mobile.svg), url(images/bg-pattern-intro-right-mobile.svg);
+        background-repeat:no-repeat ;
+        /* im using regular values instead of words in the intro right mobile bg position cause ifi did,it would look correct)*/ 
+        background-position-x:left , 15rem;
+        background-position-y: top, 20rem;
+    }
+    #findout{
+        background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: auto 100%;
+    }
+    footer{
+        background-image: url(images/bg-pattern-footer-mobile.svg);
+        background-position-x:left;
+        background-position-y:top ;
+        background-repeat:no-repeat;
+    }
+    .intro-image{
+        position: static;
+        width:100%;
+    }
+    .intro-image > *{
+        width:100%;
+        object-fit: fill;
+    }
+    #text-container{
+        width:86%;
+        text-align: center;
+    }
+    #different > *{
+        width:100%;
+        text-align: center;
+    }
+    #different{
+        width:90%;
+    }
+    #findout{
+        justify-content: center;
+        width: 90%;
+        padding:4rem 5%;
+    }
+    .findout{
+        width:auto;
+        text-align: center;
+        font-size: 2.7rem;
+        margin-bottom: 2.5rem;
+        line-height: 2.7rem;
+    }
+    .fontsize4-2rem{
+        font-size:2.9rem;
+        line-height: 2.7rem;
+    }
+    .text-container-reg-text{
+        line-height: 1.5rem;
+    }
+    .differentelement > p{
+        line-height: 1.5rem;
+    }
+    .marginbottom{
+        margin-bottom: 3rem ;
+    }
+    footer{
+        justify-content: center;
+    }
+    #footer-insure{
+        flex-direction: column;
+        align-items: center;
+    }
+    #linklist{
+        width:auto;
+    }
+   #linklist ul{
+    width:100%;
+    margin-bottom: 2rem;
+   }
+    #linklist li{
+        text-align: center;
+    }
+
+    #insure-logo-footer{
+        margin-bottom: 1.5rem;
+    }
+}
