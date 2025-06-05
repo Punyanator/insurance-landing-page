@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![first part](insurelandingpage\Screenshot 2025-06-05 184627.png)
-![second part](insurelandingpage\Screenshot 2025-06-05 184726.png)
-![third part](insurelandingpage\Screenshot 2025-06-05 184757.png)
+![first part](insurelandingpage/Screenshot 2025-06-05 184627.png)
+![second part](insurelandingpage/Screenshot 2025-06-05 184726.png)
+![third part](insurelandingpage/Screenshot 2025-06-05 184757.png)
 
 ### Links
 
