@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Punyanator Insurance Landing Page Solution URL ](https://your-solution-url.com)
+- Solution URL: [Punyanator Insurance Landing Page Solution URL ](https://github.com/Punyanator)
 - Live Site URL: [Insurance Page Live Site](https://punyanator.github.io/insurance-landing-page/)
 
 ## My process
